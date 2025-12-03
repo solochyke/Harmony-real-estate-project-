@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <!-- SEO METADATA (Template - Customize per Listing) -->
+    <title>FOR SALE: 5-Bed Lekki Phase 1 Villa | Prestige Realty</title>
+    <meta name="description" content="Detailed specifications and photos of the luxury 5-Bedroom Detached Villa in Lekki Phase 1. Schedule a private viewing.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Theme Configuration -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-dark': '#0a1d35', 
+              'brand-gold': '#ffb703', 
+              'brand-green': '#25D366', 
+            },
+            fontFamily: {
+              sans: ['Inter', 'Helvetica', 'Arial', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- NAVIGATION (Sticky) -->
+    <nav class="sticky top-0 z-50 bg-brand-dark shadow-xl text-white">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-extrabold tracking-tight">
+                PRESTIGE<span class="text-brand-gold">REALTY</span>
+            </a>
+            <a href="#contact-agent" class="bg-brand-gold text-brand-dark px-4 py-2 rounded-lg font-bold hover:bg-yellow-500 transition">
+                Inquire Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- MAIN PROPERTY SECTION -->
+    <main class="pt-8 pb-20 px-4 md:px-8 max-w-7xl mx-auto">
+        
+        <!-- HEADER & PRICE BLOCK -->
+        <header class="mb-8">
+            <h1 class="text-3xl md:text-5xl font-bold text-brand-dark leading-tight">
+                Luxury 5-Bed Detached Villa with Cinema
+            </h1>
+            <p class="text-xl md:text-2xl text-brand-gold font-extrabold mt-2">
+                ₦275,000,000
+            </p>
+            <p class="text-gray-500 mt-1">📍 Lekki Phase 1, Lagos | Ref: LEK-001</p>
+        </header>
+
+        <!-- GALLERY SECTION (Use high-resolution images) -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-12">
+            <!-- Main Hero Image (Spans 2 columns on desktop) -->
+            <div class="md:col-span-2 h-96 overflow-hidden rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1588880331179-bc9b97d8040e?q=80&w=1200&auto=format&fit=crop" 
+                     alt="Main exterior view of the luxury villa" 
+                     class="w-full h-full object-cover">
+            </div>
+            
+            <!-- Side Gallery Images (Mobile: stacks, Desktop: vertical stack) -->
+            <div class="grid grid-cols-2 md:grid-cols-1 gap-3">
+                <div class="h-48 md:h-[190px] overflow-hidden rounded-xl shadow-md">
+                    <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=800&auto=format&fit=crop" 
+                         alt="Interior living room with high ceilings" 
+                         class="w-full h-full object-cover">
+                </div>
+                <div class="h-48 md:h-[190px] overflow-hidden rounded-xl shadow-md">
+                    <img src="https://images.unsplash.com/photo-1512918728841-727653c7ad94?q=80&w=800&auto=format&fit=crop" 
+                         alt="Modern kitchen and dining area" 
+                         class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- DETAILS & SPECIFICATIONS -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            
+            <!-- LEFT COLUMN: DESCRIPTION & FEATURES -->
+            <section class="lg:col-span-2">
+                <h2 class="text-2xl font-bold text-brand-dark mb-4 border-b pb-2">Property Overview</h2>
+                
+                <p class="text-gray-700 mb-6">
+                    This exquisite 5-bedroom detached villa is situated in a highly secured estate in the heart of Lekki Phase 1. Designed for the executive lifestyle, it offers unparalleled privacy, cutting-edge smart home features, and expansive living areas. The property features dual staircases, a rooftop terrace, and ample parking for up to 6 cars. 
+                </p>
+
+                <h3 class="text-xl font-bold text-brand-dark mb-3 mt-6">Key Features</h3>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 text-gray-700 list-none pl-0">
+                    <li class="flex items-center"><span class="text-brand-gold mr-2 text-xl">✓</span> Fully serviced estate</li>
+                    <li class="flex items-center"><span class="text-brand-gold mr-2 text-xl">✓</span> Built-in Home Cinema room</li>
+                    <li class="flex items-center"><span class="text-brand-gold mr-2 text-xl">✓</span> All bedrooms en-suite</li>
+                    <li class="flex items-center"><span class="text-brand-gold mr-2 text-xl">✓</span> Smart lighting and automation</li>
+                    <li class="flex items-center"><span class="text-brand-gold mr-2 text-xl">✓</span> Industrial-grade Borehole & Treatment</li>
+                    <li class="flex items-center"><span class="text-brand-gold mr-2 text-xl">✓</span> Rooftop Terrace with panoramic views</li>
+                </ul>
+
+                <h3 class="text-xl font-bold text-brand-dark mb-3 mt-8">Floor Plan (Diagram Placeholder)</h3>
+                <div class="bg-gray-200 h-64 flex items-center justify-center rounded-lg border-2 border-dashed border-gray-400">
+                    <p class="text-gray-600">Floor Plan / Virtual Tour Placeholder</p>
+                </div>
+                
+            </section>
+
+            <!-- RIGHT COLUMN: QUICK STATS & AGENT CTA (STAYS STICKY ON DESKTOP) -->
+            <aside class="lg:col-span-1">
+                <div class="bg-white p-6 rounded-xl shadow-xl border border-gray-100 sticky top-20" id="contact-agent">
+                    <h3 class="text-2xl font-bold text-brand-dark mb-4">Quick Stats</h3>
+                    
+                    <!-- Quick Stats Grid -->
+                    <div class="grid grid-cols-2 gap-4 border-b border-gray-200 pb-4 mb-4 text-center">
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <p class="text-3xl font-extrabold text-brand-gold">5</p>
+                            <p class="text-sm text-gray-500">Bedrooms</p>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <p class="text-3xl font-extrabold text-brand-gold">6</p>
+                            <p class="text-sm text-gray-500">Bathrooms</p>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <p class="text-3xl font-extrabold text-brand-gold">550</p>
+                            <p class="text-sm text-gray-500">Sq. Meters</p>
+                        </div>
+                        <div class="bg-gray-50 p-3 rounded-lg">
+                            <p class="text-3xl font-extrabold text-brand-gold">2024</p>
+                            <p class="text-sm text-gray-500">Built Year</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Agent Contact -->
+                    <div class="text-center mt-6">
+                        <h4 class="text-lg font-semibold text-gray-800">Your Dedicated Agent</h4>
+                        <p class="text-gray-500 mb-4">Ayodele Bankole</p>
+                        
+                        <!-- Dominant WhatsApp Button -->
+                        <a href="https://wa.me/2347000000000?text=I need a private tour for Ref: LEK-001 (₦275M Villa)." 
+                           target="_blank"
+                           class="flex justify-center items-center w-full bg-brand-green hover:bg-green-700 text-white font-bold py-3 px-4 rounded-lg transition transform hover:shadow-lg text-lg">
+                           <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12.001 2.001C6.48 2.001 2 6.481 2 12.001c0 3.328 1.58 6.31 4.05 8.12l-.63 2.15l2.25-.6c1.72 1.05 3.75 1.63 5.33 1.63c5.52 0 10.001-4.48 10.001-10.001S17.521 2.001 12.001 2.001zm3.84 14.12l-.78-.47c-.2-.12-.39-.18-.58-.28c-.19-.09-.39-.18-.62-.27c-.22-.1-.4-.14-.58-.14c-.18 0-.34.03-.49.09c-.15.06-.3.15-.43.24c-.13.09-.25.19-.36.31c-.12.11-.19.24-.26.38c-.06.13-.11.28-.14.45c-.03.17-.06.35-.06.54c0 .19.03.38.09.56c.06.19.15.37.27.53c.12.16.27.29.44.41c.17.11.37.2.59.27c.22.07.45.1.69.1c.24 0 .46-.03.68-.1c.22-.07.42-.17.61-.29c.19-.12.36-.26.5-.43c.15-.17.27-.37.36-.61c.09-.23.15-.48.19-.75c-.03-.27-.05-.53-.05-.79c0-.26.03-.52.08-.78c.05-.26.14-.52.27-.77zM15.48 16.71z"/></svg>
+                           <span>WhatsApp Agent Directly</span>
+                        </a>
+
+                        <p class="text-gray-400 text-xs mt-3">All inquiries are strictly confidential.</p>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+        
+    </main>
+
+    <!-- FOOTER (Same as homepage) -->
+    <footer class="bg-gray-900 py-10 text-center text-gray-500 text-sm">
+        <div class="max-w-7xl mx-auto px-4">
+            <p>&copy; 2025 Prestige Realty. All Rights Reserved. | Dedicated to High-Value Real Estate Transactions.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
